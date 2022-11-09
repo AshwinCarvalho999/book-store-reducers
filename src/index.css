@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import 'primereact/resources/themes/lara-light-indigo/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  body {
+    @apply bg-slate-100;
+  }
+}
+
+@layer components {
+  .active {
+    @apply font-bold;
+  }
+}
